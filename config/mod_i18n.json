@@ -7535,6 +7535,271 @@
       },
       "multiplechoice": {},
       "singlechoice": {}
+    },
+    "Leopard2A7V": {
+      "ModId": "Leopard2A7V",
+      "ConfigLabels": {
+        "Enabled": {
+          "zh-CN": "总开关",
+          "en-US": "Master switch"
+        },
+        "SourceUnitKey": {
+          "zh-CN": "供体单位",
+          "en-US": "Source unit"
+        },
+        "FriendlyName": {
+          "zh-CN": "显示名",
+          "en-US": "Display name"
+        },
+        "ConvertSourceUnit": {
+          "zh-CN": "连供体一起换",
+          "en-US": "Also convert donor"
+        },
+        "UseDonorRunningGear": {
+          "zh-CN": "用供体负重轮",
+          "en-US": "Donor running gear"
+        },
+        "UseDonorTrackArt": {
+          "zh-CN": "用供体履带",
+          "en-US": "Donor track art"
+        },
+        "TrackTreadsPerMetre": {
+          "zh-CN": "履带节距",
+          "en-US": "Treads per metre"
+        },
+        "ApplyArmor": {
+          "zh-CN": "改写装甲",
+          "en-US": "Override armor"
+        },
+        "LogArmor": {
+          "zh-CN": "打印装甲",
+          "en-US": "Log armor"
+        },
+        "VisualOffset": {
+          "zh-CN": "整车偏移",
+          "en-US": "Visual offset"
+        },
+        "ModelTurretAxis": {
+          "zh-CN": "炮塔转轴",
+          "en-US": "Turret axis"
+        },
+        "ModelGunAxis": {
+          "zh-CN": "火炮俯仰轴",
+          "en-US": "Gun axis"
+        },
+        "CommanderViewOffset": {
+          "zh-CN": "车长机位偏移",
+          "en-US": "Commander view offset"
+        },
+        "MaxTextureSize": {
+          "zh-CN": "贴图最大边长",
+          "en-US": "Max texture size"
+        },
+        "AlbedoLuminance": {
+          "zh-CN": "反照率亮度",
+          "en-US": "Albedo luminance"
+        },
+        "PaintMaskLevel": {
+          "zh-CN": "涂装遮罩",
+          "en-US": "Paint mask level"
+        },
+        "SmoothnessLevel": {
+          "zh-CN": "基础光泽",
+          "en-US": "Smoothness level"
+        },
+        "NeutralMaps": {
+          "zh-CN": "中性遮罩",
+          "en-US": "Neutral maps"
+        },
+        "UseDetailMaps": {
+          "zh-CN": "细节贴图",
+          "en-US": "Detail maps"
+        },
+        "AddHeatSource": {
+          "zh-CN": "热源",
+          "en-US": "Heat source"
+        },
+        "ReplaceDayReticle": {
+          "zh-CN": "昼间分划板",
+          "en-US": "Daylight reticle"
+        },
+        "LimitMainGunElevation": {
+          "zh-CN": "主炮行程",
+          "en-US": "Gun elevation limit"
+        },
+        "GunElevationDegrees": {
+          "zh-CN": "最大仰角",
+          "en-US": "Max elevation"
+        },
+        "GunDepressionDegrees": {
+          "zh-CN": "最大俯角",
+          "en-US": "Max depression"
+        },
+        "AddRoofGun": {
+          "zh-CN": "车顶机枪",
+          "en-US": "Roof machine gun"
+        },
+        "RoofGunYawPoint": {
+          "zh-CN": "机枪回旋轴",
+          "en-US": "MG traverse axis"
+        },
+        "RoofGunTrunnion": {
+          "zh-CN": "机枪俯仰轴",
+          "en-US": "MG trunnion"
+        },
+        "RoofGunMuzzle": {
+          "zh-CN": "机枪枪口",
+          "en-US": "MG muzzle"
+        },
+        "RoofGunSight": {
+          "zh-CN": "机枪镜机位",
+          "en-US": "MG eyepiece"
+        },
+        "RoofGunRack": {
+          "zh-CN": "弹链箱",
+          "en-US": "MG belt box"
+        },
+        "RoofGunSightFov": {
+          "zh-CN": "机枪镜视场",
+          "en-US": "MG sight FOV"
+        },
+        "DumpMaterials": {
+          "zh-CN": "打印材质",
+          "en-US": "Dump materials"
+        }
+      },
+      "ConfigComments": {
+        "Turns the mod off without uninstalling it": {
+          "zh-CN": "关掉即停用整个模组，不用卸载",
+          "en-US": "Turns the mod off without uninstalling it"
+        },
+        "Vanilla unit the 2A7V is cloned from; LEO2A3 is the only one that works": {
+          "zh-CN": "克隆用的原版单位，只有 LEO2A3 能对上",
+          "en-US": "Vanilla unit the 2A7V is cloned from; LEO2A3 is the only one that works"
+        },
+        "Name this vehicle shows in the menus": {
+          "zh-CN": "菜单里显示的名字",
+          "en-US": "Name this vehicle shows in the menus"
+        },
+        "Also restyle the stock LEO2A3s, not just the new entry": {
+          "zh-CN": "连原版 LEO2A3 一起换皮，不只是新条目",
+          "en-US": "Also restyle the stock LEO2A3s, not just the new entry"
+        },
+        "Keep the donor's wheels and tracks. Off builds the model's own road wheels on the donor bones; the return rollers and arms still move with the hull": {
+          "zh-CN": "沿用供体的负重轮和履带。关掉后建模型自己的负重轮并挂到供体骨头上；托带轮和悬挂臂仍然跟着车体动",
+          "en-US": "Keep the donor's wheels and tracks. Off builds the model's own road wheels on the donor bones; the return rollers and arms still move with the hull"
+        },
+        "Keep the donor's own track loops. Only this setting shows a complete, rolling track, because the model's track sheet cannot scroll": {
+          "zh-CN": "用供体自己的履带环。只有这一档是完整会滚的履带，因为模型那张履带图滚不了",
+          "en-US": "Keep the donor's own track loops. Only this setting shows a complete, rolling track, because the model's track sheet cannot scroll"
+        },
+        "Tread repeats per metre when the model's own track is used; ignored while the donor track art is on": {
+          "zh-CN": "用模型自己的履带时每米重复几次花纹；开着供体履带就不读这一项",
+          "en-US": "Tread repeats per metre when the model's own track is used; ignored while the donor track art is on"
+        },
+        "Overwrite the protection values. Leave this off: the donor's layered armour is more accurate than any flat numbers this mod can set": {
+          "zh-CN": "覆盖防护数值。建议关：供体本来那套分层装甲比这里能填的平面数字准",
+          "en-US": "Overwrite the protection values. Leave this off: the donor's layered armour is more accurate than any flat numbers this mod can set"
+        },
+        "Print every armour layer to the log at load": {
+          "zh-CN": "加载时把每层装甲打到日志",
+          "en-US": "Print every armour layer to the log at load"
+        },
+        "Whole vehicle offset in metres in the game's unit frame (+X right, +Y up, +Z forward)": {
+          "zh-CN": "整车在单位坐标系里的偏移，米（+X 右、+Y 上、+Z 前）",
+          "en-US": "Whole vehicle offset in metres in the game's unit frame (+X right, +Y up, +Z forward)"
+        },
+        "Turret traverse axis in model space, read from the model's bone table": {
+          "zh-CN": "模型空间的炮塔回旋轴，取自模型的骨骼表",
+          "en-US": "Turret traverse axis in model space, read from the model's bone table"
+        },
+        "Gun elevation axis in model space; its x is what keeps the mantlet sitting in the turret window": {
+          "zh-CN": "模型空间的主炮俯仰轴，x 值是炮盾能不能卡在炮塔窗口里的关键",
+          "en-US": "Gun elevation axis in model space; its x is what keeps the mantlet sitting in the turret window"
+        },
+        "Nudges the commander's camera in unit-frame metres; only needed if the cupola clips his view": {
+          "zh-CN": "车长机位微调，米；只有镜壳挡住视野时才需要动",
+          "en-US": "Nudges the commander's camera in unit-frame metres; only needed if the cupola clips his view"
+        },
+        "Largest texture size loaded from disk; drop to 1024 to save memory": {
+          "zh-CN": "从磁盘读贴图时的最大边长，显存紧就降到 1024",
+          "en-US": "Largest texture size loaded from disk; drop to 1024 to save memory"
+        },
+        "Pulls the imported albedos toward this mean grey; 0 keeps them as authored": {
+          "zh-CN": "把导入的反照率拉向这个平均灰度；0 表示保持原样",
+          "en-US": "Pulls the imported albedos toward this mean grey; 0 keeps them as authored"
+        },
+        "Red channel of the neutral paint mask, 0-255; 255 reads as fully painted, 0 as bare metal": {
+          "zh-CN": "中性涂装遮罩的红通道 0-255；255 是全涂装，0 是裸金属",
+          "en-US": "Red channel of the neutral paint mask, 0-255; 255 reads as fully painted, 0 as bare metal"
+        },
+        "Base gloss 0-255 for materials without a gloss map": {
+          "zh-CN": "没有光泽图的材质用的基础光泽 0-255",
+          "en-US": "Base gloss 0-255 for materials without a gloss map"
+        },
+        "Use flat neutral maps instead of the donor's paint mask and gloss; off keeps the donor's own UV-baked ones": {
+          "zh-CN": "用平的中性图代替供体的涂装遮罩和光泽图；关掉保留供体自己那套",
+          "en-US": "Use flat neutral maps instead of the donor's paint mask and gloss; off keeps the donor's own UV-baked ones"
+        },
+        "Bind the model's own ambient-occlusion bakes, which is what puts shading into panel seams and hatches": {
+          "zh-CN": "绑模型自带的 AO 烘焙，板缝和舱盖的阴影靠它",
+          "en-US": "Bind the model's own ambient-occlusion bakes, which is what puts shading into panel seams and hatches"
+        },
+        "Give the vehicle a heat signature source": {
+          "zh-CN": "给车加一个热信号源",
+          "en-US": "Give the vehicle a heat signature source"
+        },
+        "Draw the 2A7V graticule in the gunner's daylight sight; the fire control still moves the aiming mark": {
+          "zh-CN": "炮手昼间镜画 2A7V 分划板，瞄点仍由火控驱动",
+          "en-US": "Draw the 2A7V graticule in the gunner's daylight sight; the fire control still moves the aiming mark"
+        },
+        "Apply the gun arc below. GHPC treats an equal pair of limits as unlimited travel, so this is the switch that actually stops the barrel": {
+          "zh-CN": "应用下面的俯仰行程。GHPC 把两个相等的限位当成不限，所以真正挡住炮管的是这一项",
+          "en-US": "Apply the gun arc below. GHPC treats an equal pair of limits as unlimited travel, so this is the switch that actually stops the barrel"
+        },
+        "Highest elevation above horizontal, in degrees": {
+          "zh-CN": "水平以上的最大仰角（度）",
+          "en-US": "Highest elevation above horizontal, in degrees"
+        },
+        "Lowest depression below horizontal, in degrees; negative": {
+          "zh-CN": "水平以下的最大俯角（度），填负数",
+          "en-US": "Lowest depression below horizontal, in degrees; negative"
+        },
+        "Make the roof MG a real weapon with its own mount, fire control and sight; off leaves it as decoration": {
+          "zh-CN": "把车顶机枪做成真武器，有自己的枪座、火控和镜；关掉只剩装饰",
+          "en-US": "Make the roof MG a real weapon with its own mount, fire control and sight; off leaves it as decoration"
+        },
+        "Traverse axis of the roof mount, in the same model space as the turret axis": {
+          "zh-CN": "车顶枪座的回旋轴，与炮塔轴同一模型坐标系",
+          "en-US": "Traverse axis of the roof mount, in the same model space as the turret axis"
+        },
+        "Elevation axis of the roof MG, in model space": {
+          "zh-CN": "车顶机枪的俯仰轴，模型空间",
+          "en-US": "Elevation axis of the roof MG, in model space"
+        },
+        "Muzzle of the roof MG, where rounds and the flash spawn": {
+          "zh-CN": "车顶机枪枪口，实弹和枪口焰从这里出",
+          "en-US": "Muzzle of the roof MG, where rounds and the flash spawn"
+        },
+        "Eyepiece of the roof MG sight, in model space": {
+          "zh-CN": "车顶机枪镜的目镜位置，模型空间",
+          "en-US": "Eyepiece of the roof MG sight, in model space"
+        },
+        "Belt box of the roof MG, in model space": {
+          "zh-CN": "车顶机枪的弹链箱，模型空间",
+          "en-US": "Belt box of the roof MG, in model space"
+        },
+        "Horizontal field of view of the roof MG sight, in degrees; wider tracks aircraft more easily": {
+          "zh-CN": "车顶机枪镜的水平视场（度）；开大更好跟飞机",
+          "en-US": "Horizontal field of view of the roof MG sight, in degrees; wider tracks aircraft more easily"
+        },
+        "Print the full material and renderer state once after the vehicle is built": {
+          "zh-CN": "造完车以后把材质与渲染器状态打一遍日志",
+          "en-US": "Print the full material and renderer state once after the vehicle is built"
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     }
   }
 }
